@@ -5,10 +5,101 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 100%;
+}
+
 img {
     max-width: 100%;
 }
 
-body {
-    background-color: brown;
+a {
+    text-decoration: none;
+    color: inherit;
 }
+
+/* UTILITIES */
+.bg-blue {
+    background-color: #3a75b0;
+}
+
+.bg-grey {
+    background-color: #7a736e;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.v-padding-2 {
+    padding: 2em 0;
+}
+
+.v-padding-1 {
+    padding: 1em 0;
+}
+
+.flex-sp-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row{
+}
+
+.col{
+}
+
+/* HEADER */
+header {
+    height: 80px;
+}
+
+
+/* MAIN */
+main {
+}
+
+.cta-text {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* JDK Section */
+.jdk {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    text-align: center;
+
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+footer li {
+    display: inline-block;
+    margin: 1em;
+}
+
+
